@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <link rel="icon" href="Screenshot 2024-01-18 121853.png">
+
+<style>
+    /* .box1{
+        opacity: 20%;
+        margin: 10px;
+        border: 12px solid black;
+        height: 200px;
+        width: 200px;
+        background-color: yellow;
+    
+    } */
+    
+.container{
+    background-color: yellow
+    ;
+    height: 1200px;
+    display: inline-block;
+  
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border:3px solid red;
+    margin: 20px;
+    padding: 20px;
+}
+
+.box1{
+    position: static;
+   
+    background-color: pink;
+}
+
+.box2{
+    background-color: brown;
+    /* position: absolute;
+    bottom: 0;
+    right: 0; */
+ 
+}
+.box3{
+    background-color: purple;
+    position:fixed;
+    bottom: 20px;
+    
+}
+.box4{
+    background-color: wheat;
+    height: 200px;
+    width: 200px;
+    position:sticky;
+    bottom: 200px;
+    left: 60px;
+   
+}
+
+
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="box box1">
+
+    </div>
+    <div class="box box2" ></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+
+</div>
+<hr>
+<div class="container">
+    <!-- <div class="box box1">
+
+    </div>
+    <div class="box box2" ></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div> -->
+
+</div>
+
+</body>
+</html>
